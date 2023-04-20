@@ -24,6 +24,7 @@ body {
     background-color: transparent;
     --poster-color: #ffffff00;
     z-index: 6;
+
   }
   
   .attribution {
@@ -69,34 +70,9 @@ body {
 
 
 /* ================================================= */
-* {
-  margin: 0;
-  padding: 0;
-}
-header {
-  background-color:rgba(33, 33, 33, 0.9);
-  color:#ffffff;
-  display:block;
-  font: 14px/1.3 Arial,sans-serif;
-  height:50px;
-  position:relative;
-  z-index:5;
-}
-h2{
-  margin-top: 30px;
-  text-align: center;
-}
-header h2{
-  font-size: 22px;
-  margin: 0 auto;
-  padding: 10px 0;
-  width: 80%;
-  text-align: center;
-}
-header a, a:visited {
-  text-decoration:none;
-  color:#fcfcfc;
-}
+
+
+
 
 @keyframes move-twink-back {
   from {background-position:0 0;}
@@ -115,14 +91,16 @@ header a, a:visited {
   to {background-position:-10000px 5000px;}
 }
 
+
+
 .stars, .twinkling{
 position:absolute;
 top:0;
 left:0;
 right:0;
 bottom:0;
-width:100%;
-height:100%;
+width:10%;
+height:10%;
 display:block;
 }
 
@@ -140,6 +118,10 @@ z-index:1;
 -o-animation:move-twink-back 200s linear infinite;
 -webkit-animation:move-twink-back 200s linear infinite;
 animation:move-twink-back 200s linear infinite;
+}
+
+.aas{
+  height: 20px;
 }
 
 
